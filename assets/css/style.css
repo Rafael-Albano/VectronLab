@@ -1,0 +1,140 @@
+/*
+NAME: Rafael Luis Albano.
+DATA: 20/08/2019 á 27/09/2019
+DESCRIPTION: Selective process(Front-end Developer) Vectron Lab
+*/
+
+.app{
+    display: grid;
+    grid-template-areas:
+        "navbar-header"
+        "wrapper"
+        "footer-page";
+    grid-template-columns: auto;
+    grid-template-rows: 56px auto 56px;
+
+}
+
+.footer-page{
+    background: black;
+    color: white;
+    grid-area: footer-page;
+    grid-column: 1/2;
+    grid-row: 3/3;
+    text-align: center;
+
+
+}
+
+.panel-user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.img-user{
+    object-fit: cover;
+    object-position: auto 1em 1em;
+    height: 45px;
+    width: 45px;
+    border: solid 1px #2477BF;
+}
+
+
+.info-user p{
+    color: white;
+    font-size: 13px;
+    line-height: 1;
+}
+
+.navbar-header{
+    grid-area: navbar-header;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #3D9DD9;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-areas:
+            "wrapper__sidebar"
+            "wrapper__content-main";
+    grid-template-columns: 1fr 5fr;
+    grid-area: wrapper;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    position:relative;
+    transition: all 0.5s;
+}
+
+
+
+.sidebar{
+    background: #1F2326;
+    height: calc(100vh - 112px);
+}
+
+.content-main{
+
+    margin-top: 2em;
+    box-sizing: border-box;
+}
+
+
+.name-company{
+    text-transform: uppercase;
+    margin-bottom: .9rem;
+}
+
+.list-group-item{
+    background: transparent !important;
+}
+
+.moveSide{
+    margin-left: -307px;
+    transition: all 0.5s;
+}
+
+.link-sidebar{
+    color: white;
+}
+
+.dropdown-color{
+    background-color: rgba(0, 0, 0, .8) !important;
+}
+
+
+@media(min-width: 375px ) and (max-width: 425px){
+   .moveSide{
+       margin-left: -220px
+   }
+
+}
+
+@media(min-width: 375px ) and (max-width: 768px){
+    .sidebar{
+        min-height: auto;
+    }
+
+    .table-position{
+        margin-top: 20%;
+    }
+
+    #buttonToggle{
+        margin-top: -.7em;
+    }
+}
+
+@media(width: 768px){
+    .table{
+        margin-left: 5.7%
+    }
+}
+
+
+
+
+
+

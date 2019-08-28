@@ -1,0 +1,34 @@
+.sucesso{
+    display: none;
+    margin-bottom: 3%;
+}
+
+.falha{
+    display: none;
+    margin-bottom: 3%;
+}
+
+.spinner{
+    margin-bottom: 5%;
+}
+
+.titulo-form{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 4px;
+
+}
+
+.moveForm{
+    margin-top: 22%;
+}
+
+@media(min-width: 375px){
+    .sidebar{
+        min-height: 100%;
+    }
+}
+
+
+

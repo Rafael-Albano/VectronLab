@@ -1,0 +1,22 @@
+## Grid
+
+## Grid
+- Bidmensional
+- Divisão de toda a página em linhas e colunas.
+- Colocar elementos onde quiser nessa divisão.
+
+## Grid ou FlexBox
+- Grid: Duas dimensões(linhas e colunas).
+- FlexBox: Uma dimensão(linha ou coluna).
+- Um completa o trabalho do outro.
+
+## Proprieadades
+
+### Containers
+
+-display: grid;
+-grid-template-columns;
+-grid-template-rows;
+-grid-gap
+    -grid-row-gap
+    -grid-column-gap
